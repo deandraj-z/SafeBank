@@ -1,0 +1,58 @@
+2025-03-28 22:07:17,306 - root - INFO - Starting SafeBank FIM System
+2025-03-28 22:07:17,306 - root - INFO - Loaded baseline with 4 files
+2025-03-28 22:07:17,308 - root - INFO - Monitoring started on SafeBank_Data
+2025-03-28 22:07:17,309 - root - INFO - Dashboard started on http://localhost:5000
+2025-03-28 22:07:17,329 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.86:5000
+2025-03-28 22:07:17,330 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 22:07:20,438 - FIM_EmailAlerts - INFO - Email alert sent: FIM Security Alert: FIM System Startup
+2025-03-28 22:07:20,439 - root - INFO - Email test successful
+2025-03-28 22:07:29,384 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:07:29] "GET / HTTP/1.1" 200 -
+2025-03-28 22:07:29,650 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:07:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-28 22:07:35,012 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:07:35] "GET / HTTP/1.1" 200 -
+2025-03-28 22:07:40,147 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:07:40] "GET / HTTP/1.1" 200 -
+2025-03-28 22:07:45,356 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:07:45] "GET / HTTP/1.1" 200 -
+2025-03-28 22:07:50,508 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:07:50] "GET / HTTP/1.1" 200 -
+2025-03-28 22:07:55,628 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:07:55] "GET / HTTP/1.1" 200 -
+2025-03-28 22:08:00,751 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:08:00] "GET / HTTP/1.1" 200 -
+2025-03-28 22:08:06,210 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:08:06] "GET / HTTP/1.1" 200 -
+2025-03-28 22:08:11,347 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:08:11] "GET / HTTP/1.1" 200 -
+2025-03-28 22:08:16,761 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:08:16] "GET / HTTP/1.1" 200 -
+2025-03-28 22:08:22,229 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:08:22] "GET / HTTP/1.1" 200 -
+2025-03-28 22:08:27,381 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:08:27] "GET / HTTP/1.1" 200 -
+2025-03-28 22:08:32,794 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:08:32] "GET / HTTP/1.1" 200 -
+2025-03-28 22:08:35,859 - FIM_Handler - WARNING - File Modified: SafeBank_Data\Financial_Transactions\transactions_2025_01.csv
+2025-03-28 22:08:37,925 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:08:37] "GET / HTTP/1.1" 200 -
+2025-03-28 22:08:38,419 - FIM_EmailAlerts - INFO - Email alert sent: FIM Security Alert: File Modified
+2025-03-28 22:08:38,420 - FIM_Handler - WARNING - File Modified: SafeBank_Data\Financial_Transactions\transactions_2025_01.csv
+2025-03-28 22:08:40,435 - FIM_EmailAlerts - INFO - Email alert sent: FIM Security Alert: File Modified
+2025-03-28 22:08:40,435 - FIM_Handler - WARNING - New File Detected: SafeBank_Data\malware.exe
+2025-03-28 22:08:41,876 - FIM_EmailAlerts - INFO - Email alert sent: FIM Security Alert: New File Detected
+2025-03-28 22:08:41,879 - FIM_Handler - ERROR - Hash calculation failed: [Errno 2] No such file or directory: 'SafeBank_Data\\malware.exe'
+2025-03-28 22:08:41,880 - FIM_Handler - WARNING - File Deleted: SafeBank_Data\Internal_Configurations\db_config.ini
+2025-03-28 22:08:43,359 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:08:43] "GET / HTTP/1.1" 200 -
+2025-03-28 22:08:45,232 - FIM_EmailAlerts - INFO - Email alert sent: FIM Security Alert: File Deleted
+2025-03-28 22:08:48,498 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:08:48] "GET / HTTP/1.1" 200 -
+2025-03-28 22:08:53,962 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:08:53] "GET / HTTP/1.1" 200 -
+2025-03-28 22:08:59,092 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:08:59] "GET / HTTP/1.1" 200 -
+2025-03-28 22:09:04,531 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:09:04] "GET / HTTP/1.1" 200 -
+2025-03-28 22:09:09,679 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:09:09] "GET / HTTP/1.1" 200 -
+2025-03-28 22:09:15,140 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:09:15] "GET / HTTP/1.1" 200 -
+2025-03-28 22:09:20,283 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:09:20] "GET / HTTP/1.1" 200 -
+2025-03-28 22:09:25,719 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:09:25] "GET / HTTP/1.1" 200 -
+2025-03-28 22:09:30,844 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:09:30] "GET / HTTP/1.1" 200 -
+2025-03-28 22:09:36,290 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:09:36] "GET / HTTP/1.1" 200 -
+2025-03-28 22:09:41,423 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:09:41] "GET / HTTP/1.1" 200 -
+2025-03-28 22:09:46,866 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:09:46] "GET / HTTP/1.1" 200 -
+2025-03-28 22:09:52,318 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:09:52] "GET / HTTP/1.1" 200 -
+2025-03-28 22:09:57,441 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:09:57] "GET / HTTP/1.1" 200 -
+2025-03-28 22:10:02,881 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:10:02] "GET / HTTP/1.1" 200 -
+2025-03-28 22:10:08,005 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:10:08] "GET / HTTP/1.1" 200 -
+2025-03-28 22:10:13,424 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:10:13] "GET / HTTP/1.1" 200 -
+2025-03-28 22:10:18,606 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:10:18] "GET / HTTP/1.1" 200 -
+2025-03-28 22:10:24,037 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:10:24] "GET / HTTP/1.1" 200 -
+2025-03-28 22:10:29,175 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:10:29] "GET / HTTP/1.1" 200 -
+2025-03-28 22:10:34,588 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:10:34] "GET / HTTP/1.1" 200 -
+2025-03-28 22:10:39,692 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:10:39] "GET / HTTP/1.1" 200 -

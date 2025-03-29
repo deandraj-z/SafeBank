@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "created": "2025-03-28T22:04:29.308246",
+    "directory": "C:\\Users\\folke\\SafeBank_Data\\SafeBank_Data",
+    "total_files": 4
+  },
+  "files": {
+    "Financial_Transactions\\transactions_2025_01.csv": {
+      "hash": "716e2d1edaf8e7748e5e61c219330c664e5ec8d0a214f2f1898dffd5a75365f0",
+      "size": 98,
+      "last_modified": 1743215906.3527482,
+      "permissions": "0666"
+    },
+    "Internal_Configurations\\app_settings.json": {
+      "hash": "4e17b2ea6b438a1c0613c22b24b7fafce67a307ad5d4d2d48082783d12020e68",
+      "size": 31,
+      "last_modified": 1743215906.3572557,
+      "permissions": "0666"
+    },
+    "Internal_Configurations\\db_config.ini": {
+      "hash": "500457b9a4bc91ad494fa43c63fa5a1bbc094be606c3cd3e79a4fc0a8215fc82",
+      "size": 74,
+      "last_modified": 1743215906.3541656,
+      "permissions": "0666"
+    },
+    "Personal_Information\\customers_db.csv": {
+      "hash": "7b49e98ba043659bc182289f58366582964233588b9583a246c67885dc1d1bf1",
+      "size": 85,
+      "last_modified": 1743215906.3527482,
+      "permissions": "0666"
+    }
+  }
+}
