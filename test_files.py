@@ -64,7 +64,4 @@ def create_test_environment():
 if __name__ == "__main__":
     print("Creating SafeBank test environment...")
     create_test_environment()
-    print("\nNext steps:")
-    print("1. Run: python create_baseline.py")
-    print("2. Run: python monitor_files.py")
 
