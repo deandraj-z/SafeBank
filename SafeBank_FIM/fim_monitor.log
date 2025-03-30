@@ -1,0 +1,40 @@
+2025-03-29 23:01:49,492 - root - INFO - Starting SafeBank FIM System
+2025-03-29 23:01:49,495 - root - INFO - Loaded baseline with 4 files
+2025-03-29 23:01:49,497 - root - INFO - Monitoring started on SafeBank_FIM
+2025-03-29 23:01:49,499 - root - INFO - Dashboard started on http://localhost:5000
+2025-03-29 23:01:49,532 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.86:5000
+2025-03-29 23:01:49,533 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-29 23:01:53,963 - FIM_EmailAlerts - INFO - Email alert sent: FIM Security Alert: FIM System Startup
+2025-03-29 23:01:53,965 - root - INFO - Email test successful
+2025-03-29 23:02:00,843 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:00] "GET / HTTP/1.1" 200 -
+2025-03-29 23:02:01,686 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-29 23:02:06,343 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:06] "GET / HTTP/1.1" 200 -
+2025-03-29 23:02:11,508 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:11] "GET / HTTP/1.1" 200 -
+2025-03-29 23:02:16,663 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:16] "GET / HTTP/1.1" 200 -
+2025-03-29 23:02:21,829 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:21] "GET / HTTP/1.1" 200 -
+2025-03-29 23:02:26,994 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:26] "GET / HTTP/1.1" 200 -
+2025-03-29 23:02:32,148 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:32] "GET / HTTP/1.1" 200 -
+2025-03-29 23:02:37,403 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:37] "GET / HTTP/1.1" 200 -
+2025-03-29 23:02:42,628 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:42] "GET / HTTP/1.1" 200 -
+2025-03-29 23:02:47,838 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:47] "GET / HTTP/1.1" 200 -
+2025-03-29 23:02:53,028 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:53] "GET / HTTP/1.1" 200 -
+2025-03-29 23:02:58,322 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:02:58] "GET / HTTP/1.1" 200 -
+2025-03-29 23:03:03,515 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:03:03] "GET / HTTP/1.1" 200 -
+2025-03-29 23:03:06,638 - FIM_Handler - WARNING - File Modified: SafeBank_FIM\Financial_Transactions\transactions_2025_01.csv
+2025-03-29 23:03:08,670 - FIM_EmailAlerts - INFO - Email alert sent: FIM Security Alert: File Modified
+2025-03-29 23:03:08,672 - FIM_Handler - WARNING - File Modified: SafeBank_FIM\Financial_Transactions\transactions_2025_01.csv
+2025-03-29 23:03:08,714 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:03:08] "GET / HTTP/1.1" 200 -
+2025-03-29 23:03:10,670 - FIM_EmailAlerts - INFO - Email alert sent: FIM Security Alert: File Modified
+2025-03-29 23:03:10,671 - FIM_Handler - WARNING - New File Detected: SafeBank_FIM\malware.exe
+2025-03-29 23:03:13,143 - FIM_EmailAlerts - INFO - Email alert sent: FIM Security Alert: New File Detected
+2025-03-29 23:03:13,145 - FIM_Handler - ERROR - Hash calculation failed: [Errno 2] No such file or directory: 'SafeBank_FIM\\malware.exe'
+2025-03-29 23:03:13,146 - FIM_Handler - WARNING - File Deleted: SafeBank_FIM\Internal_Configurations\db_config.ini
+2025-03-29 23:03:14,235 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:03:14] "GET / HTTP/1.1" 200 -
+2025-03-29 23:03:17,481 - FIM_EmailAlerts - INFO - Email alert sent: FIM Security Alert: File Deleted
+2025-03-29 23:03:19,396 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:03:19] "GET / HTTP/1.1" 200 -
+2025-03-29 23:03:24,921 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:03:24] "GET / HTTP/1.1" 200 -
+2025-03-29 23:03:30,397 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:03:30] "GET / HTTP/1.1" 200 -
+2025-03-29 23:03:35,579 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 23:03:35] "GET / HTTP/1.1" 200 -

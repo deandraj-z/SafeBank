@@ -1,0 +1,24 @@
+{
+    "MONITOR_DIR": "SafeBank_FIM",
+    "BASELINE_FILE": "baseline.json",
+    "LOG_FILE": "fim_monitor.log",
+    "EMAIL_CONFIG": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender_email": "computetassignment@gmail.com",
+        "sender_password": "aklfrruakmzpawbk",
+        "recipient_emails": ["computetassignment@gmail.com"]
+    },
+    "DASHBOARD_PORT": 5000,
+    "TEST_FILES": {
+        "Financial_Transactions/transactions_2025_01.csv": "Original transaction data",
+        "Personal_Information/customers_db.csv": "Customer records",
+        "Internal_Configurations/db_config.ini": "[database]\nhost=localhost\nport=3306\nusername=admin"
+    },
+    "ALERT_PRIORITY_LEVELS": {
+        "MODIFIED": "High",
+        "CREATED": "Medium",
+        "DELETED": "Critical"
+    }
+}
+
